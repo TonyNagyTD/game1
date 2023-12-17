@@ -45,6 +45,7 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
+    width: unset;
   }
   
   .close-btn {

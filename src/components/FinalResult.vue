@@ -67,9 +67,9 @@
       getImageUrl(option) {
         // Map option names to image URLs
         const imageMap = {
-          Paper: "/images/icon-paper.svg",
-          Scissors: "/images/icon-scissors.svg",
-          Rock: "/images/icon-rock.svg"
+          Paper: "./images/icon-paper.svg",
+          Scissors: "./images/icon-scissors.svg",
+          Rock: "./images/icon-rock.svg"
         };
   
         return imageMap[option] || "";
