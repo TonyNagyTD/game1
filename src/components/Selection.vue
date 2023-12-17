@@ -22,7 +22,7 @@
       return {
         selectedOption: null,
         options: [
-            { name: "Paper", imageUrl: "/images/icon-paper.svg" },
+            { name: "Paper", imageUrl: "./src/assets/images/icon-paper.svg" },
             { name: "Scissors", imageUrl: "/images/icon-scissors.svg" },
             { name: "Rock", imageUrl: "/images/icon-rock.svg" },
       ]
