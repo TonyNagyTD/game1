@@ -1,5 +1,4 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<!-- src/components/Result.vue -->
 <template>
     <div>
       <div class="container">
@@ -42,14 +41,14 @@
       },
     },
     mounted() {
-      // Use setTimeout to automatically move to the final result after 3 seconds
+     
       setTimeout(() => {
         this.$emit("proceedToFinalResult");
-      }, 1000); // 3000 milliseconds (3 seconds)
+      }, 1000); 
     },
     methods: {
       getImageUrl(option) {
-        // Map option names to image URLs
+      
         const imageMap = {
           Paper: "./images/icon-paper.svg",
           Scissors: "./images/icon-scissors.svg",

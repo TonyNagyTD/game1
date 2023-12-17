@@ -1,4 +1,3 @@
-<!-- src/App.vue -->
 <template>
   <div id="app" class="app-body">
       <div class="container">
@@ -49,7 +48,6 @@ export default {
   },
   methods: {
     openModal() {
-      // Set showModal to true to display the modal
       this.$refs.modal.showModal = true;
     },
     handleSelection(option) {
@@ -67,8 +65,6 @@ export default {
       this.currentView = 'finalResult';
     },
     determineResult() {
-      // Add your logic to determine the winner and update result
-      // For simplicity, let's assume Rock beats Scissors, Scissors beats Paper, and Paper beats Rock
       if (
         (this.player1Choice === "Rock" && this.player2Choice === "Scissors") ||
         (this.player1Choice === "Scissors" && this.player2Choice === "Paper") ||

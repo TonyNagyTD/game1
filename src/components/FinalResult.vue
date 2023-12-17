@@ -1,21 +1,5 @@
 <!-- src/components/FinalResult.vue -->
 <template>
-    <!-- <div>
-      <h2>Final Result</h2>
-      <div class="selection">
-        <img :src="player1ImageUrl" alt="Player 1" class="option-image" />
-        <p>Player 1</p>
-      </div>
-      <div class="selection">
-        <img :src="player2ImageUrl" alt="Player 2" class="option-image" />
-        <p>Player 2</p>
-      </div>
-      <p>Result: {{ finalResult }}</p>
-      <h3>Player 1 Wins: {{ player1Wins }}</h3>
-      <button @click="resetGame">Play Again</button>
-    </div> -->
-
-
     <div>
         <div class="container">
         <div class="row">
@@ -65,7 +49,7 @@
     },
     methods: {
       getImageUrl(option) {
-        // Map option names to image URLs
+     
         const imageMap = {
           Paper: "./images/icon-paper.svg",
           Scissors: "./images/icon-scissors.svg",
@@ -83,8 +67,8 @@
   
   <style scoped>
   .option-image {
-    max-width: 50px; /* Set the maximum width of the image */
-    max-height: 50px; /* Set the maximum height of the image */
+    max-width: 50px;
+    max-height: 50px; 
   }
   
   .selection {

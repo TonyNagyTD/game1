@@ -12,7 +12,6 @@
                 </div>
             </div>
         </div>
-      <!-- <h2>Player 1 - Make a Selection</h2> -->
     </div>
   </template>
   

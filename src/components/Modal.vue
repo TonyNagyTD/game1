@@ -1,12 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<!-- Modal.vue -->
 <template>
     <div v-if="showModal" class="modal">
       <div class="modal-content">
-        <!-- Your image goes here -->
         <img class="modal-content-image" src="../assets/images/image-rules.svg" alt="Popup Image" />
   
-        <!-- Close button -->
         <span class="close-btn" @click="closeModal">&times;</span>
       </div>
     </div>
@@ -28,7 +25,6 @@
   </script>
   
   <style scoped>
-/* Add your modal styling here */
 .modal {
     position: fixed;
     top: 0;
